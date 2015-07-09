@@ -13,7 +13,7 @@
 	See the GNU Lesser General Public License for more details:
 	http://www.gnu.org/licenses/lgpl.txt
 */
-package example;
+package main.java.example;
 
 import org.milyn.Smooks;
 import org.milyn.SmooksException;
@@ -26,8 +26,8 @@ import org.xml.sax.SAXException;
 import javax.xml.transform.stream.StreamSource;
 import java.io.*;
 
-import example.model.Order;
-import example.model.OrderItem;
+import main.java.example.model.Order;
+import main.java.example.model.OrderItem;
 
 /**
  * Simple example main class.

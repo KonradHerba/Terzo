@@ -13,13 +13,15 @@
 	See the GNU Lesser General Public License for more details:
 	http://www.gnu.org/licenses/lgpl.txt
 */
-package example;
+package test.java.example;
 
 import junit.framework.TestCase;
-import example.model.Order;
-import example.model.OrderItem;
 
 import java.io.IOException;
+
+import main.java.example.Main;
+import main.java.example.model.Order;
+import main.java.example.model.OrderItem;
 
 import org.xml.sax.SAXException;
 
