@@ -37,7 +37,7 @@ public class Main {
 
     private static byte[] messageIn = readInputMessage();
 
-    protected static Order runSmooks() throws IOException, SAXException, SmooksException {
+    public static Order runSmooks() throws IOException, SAXException, SmooksException {
 
         // Instantiate Smooks with the config...
         Smooks smooks = new Smooks("smooks-config.xml");

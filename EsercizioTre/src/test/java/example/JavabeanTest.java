@@ -31,7 +31,10 @@ import org.xml.sax.SAXException;
 public class JavabeanTest extends TestCase {
 
     public void test() throws IOException, SAXException {
-        Order order = Main.runSmooks();
+    	System.out.println("weszlo w test");
+    	Order order = Main.runSmooks();
+        
+        System.out.println("doszlo za runSmooks()");
 
         assertNotNull(order);
         assertNotNull(order.getHeader());
